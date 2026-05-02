@@ -7,7 +7,7 @@ MMPBSA.py.
 
 Contents
 --------
-- mlmm_test.yml : Conda environment spec (OpenMM/OpenFF/openmm-ml/AmberTools)
+- mlmm_gbsa.yml : Conda environment spec (OpenMM/OpenFF/openmm-ml/AmberTools)
 - mm.py         : Pure MM simulation script (OpenMM + OpenFF)
 - mlmm.py       : ML/MM simulation script (OpenMM + OpenFF + openmm-ml)
 - gbsa.py       : Converts OpenMM outputs to Amber and runs MMPBSA.py
@@ -48,4 +48,4 @@ Notes
 - If the ligand residue name in the PDB is not UNK, set --ligand-resname.
 - Make sure --ligand-ff in gbsa.sh matches the force field used in the MD run.
 - Use --method gb, pb, or both in gbsa.sh to control the solvent model.
-- This conda environment only support aceff and aimnet, for other MLFF models such as MACE should adjust the installed packages.
+- This conda environment only support AceFF and AIMNet2, for other MLFF models such as MACE should adjust the installed packages.
