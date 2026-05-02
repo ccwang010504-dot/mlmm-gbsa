@@ -8,15 +8,15 @@ Usage:
 
 Input files:
     - protein.pdb  (protein structure)
-    - ligand1.sdf  (ligand structure)
+    - ligand.sdf  (ligand structure)
 
-Output files (./mm_output/):
+Output files (./md_output/):
     - preminimized.pdb     (solvated, before minimization)
     - minimized.pdb        (after energy minimization)
     - nvt_equil.pdb        (after NVT equilibration)
     - npt_equil.pdb        (after NPT equilibration)
-    - production.dcd       (production trajectory)
-    - production.log       (production log)
+    - simulation.xtc       (production trajectory)
+    - simulation.log       (production log)
     - checkpoint.chk       (checkpoint)
 """
 
