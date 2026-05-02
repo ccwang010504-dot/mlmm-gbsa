@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # MM-GBSA / MM-PBSA wrapper script
 # Usage: bash gbsa.sh [extra args for gbsa.py]
-#   e.g. bash gbsa.sh --method gb        # run PBSA
-#        bash gbsa.sh --method gb      # run both GBSA and PBSA
+#   e.g. bash gbsa.sh --method gb        # run GBSA
+#        bash gbsa.sh --method pb      # run PBSA
 set -euo pipefail
 
 eval "$(mamba shell hook --shell=bash)"
